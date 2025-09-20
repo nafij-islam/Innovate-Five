@@ -5,6 +5,11 @@ import Slide from '../components/slider/Slide';
 import Tolls from './../components/toll/Tolls';
 import Task from './../components/task/Task';
 import Messy from './../components/messy/Messy';
+import Plan from './../components/plan/Plan';
+import Count from './../components/counter/Count';
+import Slidetwo from './../components/slide2/Slidetwo';
+import Trail from './../components/Trail/Trail';
+import Footer from './../components/footer/Footer';
 
 const Home = () => {
   return (
@@ -15,6 +20,11 @@ const Home = () => {
     <Tolls/>
     <Task/>
     <Messy/>
+    <Plan/>
+    <Count/>
+    <Slidetwo/>
+    <Trail/>
+    <Footer/>
    
    
    </>
