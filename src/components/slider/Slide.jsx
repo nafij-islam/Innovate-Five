@@ -8,22 +8,22 @@ import sld5 from '../../assets/sld5.png'
 import sld6 from '../../assets/sld6.png'
 
 function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
+  const { className, onClick } = props;
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "red" }}
+     
       onClick={onClick}
     />
   );
 }
 
 function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
+  const { className, onClick } = props;
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "green" }}
+      
       onClick={onClick}
     />
   );
@@ -46,7 +46,7 @@ const Slide = () => {
   };
 
   return (
-    <section className='py-[80px]'>
+    <section className='py-[80px] '>
          <div className='max-w-[1320px] mx-auto'>
               <Slider {...settings}>
                     <img src={sld1} alt="" />

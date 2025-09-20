@@ -10,7 +10,7 @@ import card6 from '../../assets/card6.png'
 
 const Tolls = () => {
   return (
-    <section className='py-[80px] px-2'>
+    <section className='py-[80px] px-2 bg-linear-to-br from-[#8551ff3c] via-[#b19f633d] to-[#E2E2E9]'>
         <div className='max-w-[1320px] mx-auto'>
             <div className='flex items-center'>
                 <div className='w-[50%]'>

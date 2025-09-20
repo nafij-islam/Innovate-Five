@@ -4,7 +4,7 @@ import mssyimg from '../../assets/messyimg.png'
 
 const Messy = () => {
   return (
-   <section className='py-[80px]'>
+   <section className='py-[80px] bg-linear-to-br from-[#8551ff3c] via-[#b19f633d] to-[#E2E2E9]'>
        <div className='max-w-[1320px] mx-auto'>
            <div className='py-[15px] bg-[#dbccfc3c] rounded-[15px]'>
                 <div className='flex justify-between'>

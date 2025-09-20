@@ -3,7 +3,7 @@ import counteimg from "../../assets/countimg.png";
 
 const Count = () => {
   return (
-    <section className="py-[80px]">
+    <section className="py-[80px] bg-linear-to-br from-[#8551ff3c] via-[#b19f633d] to-[#E2E2E9]">
       <div className="max-w-[1320px] mx-auto">
         <div className="flex items-center justify-between">
           <div className="flex gap-[20px] items-center">

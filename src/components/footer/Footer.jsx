@@ -3,7 +3,7 @@ import logo from "../../assets/Logo.png";
 
 const Footer = () => {
   return (
-    <section className="pb-[20px] pt-[60px]">
+    <section className="pb-[20px] pt-[60px] bg-linear-to-br from-[#8551ff3c] via-[#b19f633d] to-[#E2E2E9]">
       <div className="max-w-[1320px] mx-auto">
         <div className="flex">
           <div className="w-[40%]">
