@@ -27,6 +27,7 @@ const Home = () => {
     <Footer/>
    
    
+   
    </>
   )
 }

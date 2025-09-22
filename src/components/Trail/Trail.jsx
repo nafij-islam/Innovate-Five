@@ -1,9 +1,14 @@
 import React from 'react'
-
+import AOS from "aos"
+import 'aos/dist/aos.css'
+import { useEffect } from "react"
 const Trail = () => {
+      useEffect(()=> {
+           AOS.init({ duration:2000 })
+      },[])
   return (
     <section className='py-[60px]'>
-      <div className='max-w-[1320px] mx-auto'>
+      <div data-aos="zoom-in" className='max-w-[1320px] mx-auto'>
           <div>
               <h2 className='text-[56px] font-bold text-center w-[750px] pb-[28px] mx-auto'>Ready to get started? Start your free trial.</h2>
               <div className='flex gap-5 justify-center'>

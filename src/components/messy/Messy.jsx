@@ -1,11 +1,16 @@
 import React from 'react'
 import mssyimg from '../../assets/messyimg.png'
-
+import AOS from "aos"
+import 'aos/dist/aos.css'
+import { useEffect } from "react"
 
 const Messy = () => {
+      useEffect(()=> {
+             AOS.init({ })
+        },[])
   return (
    <section className='py-[80px] bg-linear-to-br from-[#8551ff3c] via-[#b19f633d] to-[#E2E2E9]'>
-       <div className='max-w-[1320px] mx-auto'>
+       <div data-aos="fade-right"  data-aos-offset="300"  className='max-w-[1320px] mx-auto'>
            <div className='py-[15px] bg-[#dbccfc3c] rounded-[15px]'>
                 <div className='flex justify-between'>
                     <button className='py-[26px] px-[63px] text-white font-semibold duration-300 bg-[#8454F5] rounded-[15px]'>Artificial Intelligence</button>
